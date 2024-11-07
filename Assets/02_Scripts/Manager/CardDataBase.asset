@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664e63b14bfc8be44aca4ba6c4bffd2f, type: 3}
+  m_Name: CardDataBase
+  m_EditorClassIdentifier: 
+  <CardDataList>k__BackingField:
+  - <Id>k__BackingField: 10001
+    <Cost>k__BackingField: 1
+    <Health>k__BackingField: 100
+    <Damage>k__BackingField: 10
+    <Name>k__BackingField: "\uD558\uB454\uC758 \uCD94\uC801\uC790"
+    <Ability>k__BackingField: "\uC18C\uBA78\uC758 \uBD80\uB984 : \uBB34\uC791\uC704
+      \uC801\uC5D0\uAC8C 5\uCD08\uAC04 \uB099\uC778\uC744 \uC2DC\uC804\uD569\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uBCF4\uD1B5"
+    <Mana>k__BackingField: '-'
+    <Range>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 5745389198322400844, guid: 953ea7ff91191c64cabf37fd3d41632a, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: ffd4d95a3545ada4cb07c158cf253058, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 1
+  - <Id>k__BackingField: 10002
+    <Cost>k__BackingField: 1
+    <Health>k__BackingField: 30
+    <Damage>k__BackingField: 5
+    <Name>k__BackingField: "\uACBD\uACC4 \uB9C8\uBC95\uBCD1"
+    <Ability>k__BackingField: "\uCDA9\uB9CC : \uC801 \uC601\uCCB4\uC5D0\uAC8C \uD53C\uD574\uB97C
+      20 \uC8FC\uB294 2\uCE78 \uB108\uBE44\uC758 \uCDA9\uACA9\uD30C\uB97C \uBC1C\uC0AC\uD569\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uB290\uB9BC"
+    <Mana>k__BackingField: 40
+    <Range>k__BackingField: 4
+    <Prefab>k__BackingField: {fileID: 6952568547670324460, guid: 9c916152919776646a85dffe9302c633, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: 66c979bd823f16f4faa536406f5755c7, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 1
+  - <Id>k__BackingField: 10003
+    <Cost>k__BackingField: 1
+    <Health>k__BackingField: 150
+    <Damage>k__BackingField: 10
+    <Name>k__BackingField: "\uC0C1\uC2E4\uD55C \uAE30\uC0AC"
+    <Ability>k__BackingField: "\uC18C\uBA78\uC758 \uBD80\uB984 : \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+      \uD53C\uD574\uB97C 30 \uC90D\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uB290\uB9BC"
+    <Mana>k__BackingField: '-'
+    <Range>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 3577205308797808217, guid: 2d6e46e7757f3354e8941f01c241ddd2, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: d3a9b7317d0d9124d9613f6170dd0572, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 0
+  - <Id>k__BackingField: 20001
+    <Cost>k__BackingField: 2
+    <Health>k__BackingField: 50
+    <Damage>k__BackingField: 10
+    <Name>k__BackingField: "\uADDC\uC728 \uBC30\uBC18\uC790"
+    <Ability>k__BackingField: "\uCDA9\uB9CC : \uBB34\uC791\uC704 \uC801\uC744 3\uCD08\uAC04
+      \uAE30\uC808\uC2DC\uD0B5\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uB290\uB9BC"
+    <Mana>k__BackingField: 50
+    <Range>k__BackingField: 4
+    <Prefab>k__BackingField: {fileID: 4082862874937496859, guid: d829fd6512ebb304d87426d305929bb9, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: bfbb2bd395a3a104a8728c89140fae07, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 0
+  - <Id>k__BackingField: 30001
+    <Cost>k__BackingField: 3
+    <Health>k__BackingField: 300
+    <Damage>k__BackingField: 30
+    <Name>k__BackingField: "\uACF5\uD3EC\uC5D0 \uC7A0\uC2DD\uB2F9\uD55C \uBCD1\uC0AC"
+    <Ability>k__BackingField: "\uC18C\uBA78\uC758 \uBD80\uB984 : \uBAA8\uB4E0 \uC801\uC744
+      1\uCD08\uAC04 \uAE30\uC808\uC2DC\uD0B5\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uBCF4\uD1B5"
+    <Mana>k__BackingField: '-'
+    <Range>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 2502987580864893052, guid: 7834fe29cac225842a98b79f13c470c2, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: c7e5629185673ce46852b079c96c2e14, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 1
+  - <Id>k__BackingField: 30002
+    <Cost>k__BackingField: 3
+    <Health>k__BackingField: 100
+    <Damage>k__BackingField: 20
+    <Name>k__BackingField: "\uC695\uB9DD\uC758 \uC0AC\uB150"
+    <Ability>k__BackingField: "\uCDA9\uB9CC : \uC790\uAE30 \uC790\uC2E0\uC744 \uBCF5\uC81C\uD569\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uBCF4\uD1B5"
+    <Mana>k__BackingField: 40
+    <Range>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 5326972674615393271, guid: 82ce9961929aef04a90e599740b98603, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: 94afee78cf1ecac4baa12e698f827c30, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 1
+  - <Id>k__BackingField: 20002
+    <Cost>k__BackingField: 2
+    <Health>k__BackingField: 200
+    <Damage>k__BackingField: 20
+    <Name>k__BackingField: "\uC791\uC740 \uC2E0\uC218 \uB808\uC774"
+    <Ability>k__BackingField: "\uC18C\uBA78\uC758 \uBD80\uB984 : \uBB34\uC791\uC704
+      \uC544\uAD70\uC5D0\uAC8C 3\uCD08\uAC04 \uC9C0\uC18D\uB418\uB294 \uBB34\uC801\uC744
+      \uC2DC\uC804\uD569\uB2C8\uB2E4."
+    <AttackSpeed>k__BackingField: "\uBCF4\uD1B5"
+    <Mana>k__BackingField: '-'
+    <Range>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 3741082551160633505, guid: c0bc0baf07a1a86478bdab5b6e97546c, type: 3}
+    <Thumbnail>k__BackingField: {fileID: 21300000, guid: aeccc125b5bd33d4f84b059e91947a52, type: 3}
+    <IsCardChosenByPlayer>k__BackingField: 1
+    <IsCardChosenByOpponent>k__BackingField: 1
+    <SpawnSpeech>k__BackingField: {fileID: 0}
+    IsInDeck: 1
